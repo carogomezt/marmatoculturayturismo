@@ -34,7 +34,7 @@ body a:hover{
 }
 /*-- banner --*/ 
 .banner{ 
-	background:url(../images/ban1.jpg)no-repeat center bottom;
+	background:url(../images/ban2.jpg)no-repeat center bottom;
 	-webkit-background-size:cover; 
 	-moz-background-size:cover; 
 	-o-background-size:cover;
@@ -71,7 +71,7 @@ body a:hover{
     display: inline-block;
 }
 .header .navbar-header h1{
-    font-size: 3.2em;
+    font-size: 5em;
     font-style: italic;
     line-height: inherit;
     font-weight: 800;
@@ -109,7 +109,7 @@ body a:hover{
 	font-weight: 300;
 }
 .header .nav.navbar-nav.navbar-left li  a:hover,.nav.navbar-nav.navbar-left li.open  a.dropdown-toggle,.nav.navbar-nav.navbar-left li  a.active {
-    color: #0fdfe2 !important;
+    color: #2654a9 !important;
 	outline: none;
 } 
 .w3ls-hover:after {
@@ -133,7 +133,7 @@ body a:hover{
 .w3ls-hover:hover:after,.navbar-default .navbar-nav li a.active:after {
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
-	border-color: #0fdfe2;
+	border-color: #2654a9;
 	-webkit-transition: width 350ms ease-in-out;
 	-moz-transition: width 350ms ease-in-out;
 	-o-transition: width 350ms ease-in-out;
@@ -146,7 +146,7 @@ body a:hover{
 	border: none;
 } 
 .header .nav.navbar-nav.navbar-left li.open a.dropdown-toggle ,.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
-    color:#0fdfe2;
+    color:#2654a9;
     background: none; 
 }
 .header ul.dropdown-menu {
@@ -1374,6 +1374,16 @@ h3.w3-contact-vist {
 
 /*-- //Go-To-Top-Button --*/
 
+.subtitle {
+    color: #fff;
+    margin-top: -15px;
+}
+.italic {
+    font-style: italic;
+}
+.text-center{
+    text-align: center;
+}
 /*-- /responsive design --*/
 @media(max-width:1440px){
 .header ul.nav.navbar-nav.navbar-left {
@@ -1390,7 +1400,7 @@ h3.w3-contact-vist {
 }
 @media(max-width:1280px){
 .header .navbar-header h1 {
-    font-size: 3em;
+    font-size: 3.5em;
 	}
 	.header ul.nav.navbar-nav.navbar-left {
     margin-left: 3%;
@@ -1774,7 +1784,7 @@ h3.w3-contact-vist {
     text-align: left;
 	}
 	.header .navbar-header h1 {
-    font-size: 2.7em;
+    font-size: 3em;
     margin-left: 0.2em;
 	}
 	.w3agile_gallery_grid {
