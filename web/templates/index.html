@@ -1,0 +1,478 @@
+{% extends 'base/base.html' %}
+
+{% block content %}
+<!-- about -->
+<div class="about" id="about">
+	<div class="container">
+	<div class="about-heading">
+		<h2>Comité para el desarrollo turístico de Marmato</h2>
+	</div>
+		<div class="about-grids">
+		<div class="col-md-6 about-left">
+			<img src="{{ url_for('static', filename='images/a1.jpg') }}" alt="" />
+		</div>
+		<div class="col-md-6 about-right">
+			<h3>Proin feugiat, lorem ut consequat pellentesque, dolor est consequat lorem, eu condimentum tortor justo id lectus.</h3>
+			<p>Phasellus lorem enim, aliquet vitae pharetra a, vehicula sed risus. Suspendisse rhoncus, ligula ut bibendum imperdiet, nibh lectus gravida lorem, at tristique eros turpis in tortor.</p>
+			<p>Phasellus lorem enim, aliquet vitae pharetra a, vehicula sed risus. Suspendisse rhoncus, ligula ut bibendum imperdiet, nibh lectus gravida lorem, at tristique eros turpis in tortor.</p>
+			<div class="more">
+				<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+			</div>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+		</div>
+		</div>
+		<div class="about-grids1" id="services">
+		<div class="container">
+		<div class="col-md-6 about-bottom-left">
+			<div class="w3-about-bottom-head">
+			<h3>Nuestro Trabajo</h3>
+			<p>Phasellus lorem enim, aliquet vitae pharetra a, vehicula sed risus. Suspendisse rhoncus, ligula ut bibendum imperdiet, nibh lectus gravida lorem, at tristique eros turpis in tortor.</p>
+			<div class="more">
+				<a href="#" data-toggle="modal" data-target="#myModal">Read More</a>
+			</div>
+			</div>
+		</div>
+		<div class="col-md-6 about-bottom-right">
+			<div class="col-md-6 about-bottom-icon1">
+			<i class="fa fa-tripadvisor" aria-hidden="true"></i>
+			<h4>200</h4>
+			<h3>Our tours</h3>
+			</div>
+			<div class="col-md-6 about-bottom-icon1">
+			<i class="fa fa-cutlery" aria-hidden="true"></i>
+			<h4>300</h4>
+			<h3>Our tours</h3>
+			</div>
+			<div class="clearfix"></div>
+						<div class="col-md-6 about-bottom-icon1">
+						<i class="fa fa-bed" aria-hidden="true"></i>
+			<h4>450</h4>
+			<h3>Our tours</h3>
+			</div>
+			<div class="col-md-6 about-bottom-icon1">
+			<i class="fa fa-map-signs" aria-hidden="true"></i>
+			<h4>500</h4>
+			<h3>Our tours</h3>
+			</div>
+			<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+		</div>
+<!-- modal -->
+	<div class="modal about-modal fade" id="myModal" tabindex="-1" role="dialog">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header"> 
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span class="span1" aria-hidden="true">&times;</span></button>						
+						<h4 class="modal-title"> Travel Spot</h4>
+					</div> 
+					<div class="modal-body">
+					<div class="agileits-w3layouts-info">
+						<img src="{{ url_for('static', filename='images/m1.jpg') }}" alt="" />
+						<p>Duis venenatis, turpis eu bibendum porttitor, sapien quam ultricies tellus, ac rhoncus risus odio eget nunc. Pellentesque ac fermentum diam. Integer eu facilisis nunc, a iaculis felis. Pellentesque pellentesque tempor enim, in dapibus turpis porttitor quis. Suspendisse ultrices hendrerit massa. Nam id metus id tellus ultrices ullamcorper.  Cras tempor massa luctus, varius lacus sit amet, blandit lorem. Duis auctor in tortor sed tristique. Proin sed finibus sem.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- //modal -->
+
+<!-- //about -->
+<!-- /offer -->
+<div class="w3-offer" id="w3-offer">
+<div class="container">
+	<div class="w3-offer-head">
+	<h3>Servicios</h3>
+	
+	
+	</div>
+	<div class="w3-offer-grids">
+		<div class="col-md-9 w3-left-offer-grid">
+		<div class="col-md-6 w3-left-offer-content">
+		<div class="col-md-2 w3-left-offer-icon">
+		<i class="fa fa-renren" aria-hidden="true"></i>
+		</div>
+		<div class="col-md-10 w3-left-offer-icon">
+		<p>Vestibulum et pellentesque felis. Fusce porta fringilla dignissim. Nam ultricies augue mi, quis mattis nisl viverra vel. Cras rhoncus eu nisl in convallis</p>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+		<div class="col-md-6 w3-left-offer-content">
+		<div class="col-md-2 w3-left-offer-icon">
+		<i class="fa fa-arrows" aria-hidden="true"></i>
+		</div>
+		<div class="col-md-10 w3-left-offer-icon">
+		<p>Vestibulum et pellentesque felis. Fusce porta fringilla dignissim. Nam ultricies augue mi, quis mattis nisl viverra vel. Cras rhoncus eu nisl in convallis</p>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+		<div class="col-md-6 w3-left-offer-content1">
+		<div class="col-md-2 w3-left-offer-icon">
+		<i class="fa fa-fort-awesome" aria-hidden="true"></i>
+		</div>
+		<div class="col-md-10 w3-left-offer-icon">
+		<p>Vestibulum et pellentesque felis. Fusce porta fringilla dignissim. Nam ultricies augue mi, quis mattis nisl viverra vel. Cras rhoncus eu nisl in convallis</p>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+		<div class="col-md-6 w3-left-offer-content1">
+		<div class="col-md-2 w3-left-offer-icon">
+		<i class="fa fa-subway" aria-hidden="true"></i>
+		</div>
+		<div class="col-md-10 w3-left-offer-icon">
+		<p>Vestibulum et pellentesque felis. Fusce porta fringilla dignissim. Nam ultricies augue mi, quis mattis nisl viverra vel. Cras rhoncus eu nisl in convallis</p>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+		<div class="clearfix"></div>
+		</div>
+		<div class="col-md-3 w3-right-offer-grid">
+		</div>
+		<div class="clearfix"></div>
+	
+	</div>
+	<div class="w3-offer-bottom-grid">
+		<div class="col-md-3 w3-bottom-offer1">
+		<i class="fa fa-mixcloud" aria-hidden="true"></i>
+			<h3>Lorem ipsum</h3>
+			
+		</div>
+		<div class="col-md-3 w3-bottom-offer1">
+		<i class="fa fa-sort-numeric-desc" aria-hidden="true"></i>
+		<h3>duken monst</h3>
+		</div>
+		<div class="col-md-3 w3-bottom-offer1">
+		<i class="fa fa-wifi" aria-hidden="true"></i>
+		<h3>wifi ipsum</h3>
+		</div>
+		<div class="col-md-3 w3-bottom-offer1">
+		<i class="fa fa-delicious" aria-hidden="true"></i>
+		<h3>food nepsu</h3>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<div class="w3-offer-pos-img">
+		<img src="{{ url_for('static', filename='images/suit1.png') }}" alt="img">
+	</div>
+</div>
+</div>
+<!-- //offer -->
+<!-- team -->
+	<div class="team jarallax" id="team">
+		<div class="team-dot">
+			<div class="container">
+				<div class="w3ls-heading team-heading">
+					<h3>Marmatólogos Invitados 2018</h3>					
+				</div>
+				<div class="team_gds">
+					<div class="col-md-3 team_gd1">
+						<div class="team_pos">
+							<div class="team_back"></div>
+							<img class="img-responsive" src="{{ url_for('static', filename='images/tm1.jpg') }}"  alt=" ">
+							<div class="team_info">
+								<a href="#"  class="face_one"><i class=" so1 fa fa-facebook fc1" aria-hidden="true"></i></a>
+								<a href="#"  class="face_one"><i class=" so2 fa fa-twitter fc2" aria-hidden="true"></i></a>
+								<a href="#"  class="face_one"><i class=" so3 fa fa-google fc3" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<h4>Victoria</h4>
+						<p>Lorem Ipsum</p>
+					</div>
+				
+					<div class="col-md-3 team_gd1">
+						<div class="team_pos">
+							<div class="team_back"></div>
+							<img class="img-responsive" src="{{ url_for('static', filename='images/tm2.jpg') }}"  alt=" ">
+							<div class="team_info">
+								<a href="#"  class="face_one"><i class=" so1 fa fa-facebook fc1" aria-hidden="true"></i></a>
+								<a href="#"  class="face_one"><i class=" so2 fa fa-twitter fc2" aria-hidden="true"></i></a>
+								<a href="#"  class="face_one"><i class=" so3 fa fa-google fc3" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<h4>Patrick</h4>
+						<p>Lorem Ipsum</p>
+					</div>
+					<div class="col-md-3 team_gd1">
+						<div class="team_pos">
+							<div class="team_back"></div>
+							<img class="img-responsive" src="{{ url_for('static', filename='images/tm3.jpg') }}"  alt=" ">
+							<div class="team_info">
+								<a href="#"  class="face_one"><i class=" so1 fa fa-facebook fc1" aria-hidden="true"></i></a>
+								<a href="#"  class="face_one"><i class=" so2 fa fa-twitter fc2" aria-hidden="true"></i></a>
+								<a href="#"  class="face_one"><i class=" so3 fa fa-google fc3" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<h4>Thompson</h4>
+						<p>Lorem Ipsum</p>
+					</div>
+					<div class="col-md-3 team_gd1">
+						<div class="team_pos">
+							<div class="team_back"></div>
+							<img class="img-responsive" src="{{ url_for('static', filename='images/tm4.jpg') }}"  alt=" ">
+							<div class="team_info">
+								<a href="#"  class="face_one"><i class=" so1 fa fa-facebook fc1" aria-hidden="true"></i></a>
+								<a href="#"  class="face_one"><i class=" so2 fa fa-twitter fc2" aria-hidden="true"></i></a>
+								<a href="#"  class="face_one"><i class=" so3 fa fa-google fc3" aria-hidden="true"></i></a>
+							</div>
+						</div>
+						<h4>Federica</h4>
+						<p>Lorem Ipsum</p>
+					</div>
+					<div class="clearfix"></div>		
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- //team -->
+<!-- gallery -->
+	<div class="gallery" id="gallery">
+		<h3 class="w3-hallery-head">Galería</h3>
+		
+		<div class="w3agile_gallery_grids">
+			{% for photo in galeria %}
+			<div class="col-md-3 w3agile_gallery_grid">
+				<div class="w3agile_gallery_image">
+					{% if photo.image_url %}
+					<a class="sb" href="{{ url_for('static', filename='images/' + photo.image_url) }}">
+						<figure>
+							<img src="{{ url_for('static', filename='images/' + photo.image_url) }}" alt="" class="img-responsive" />
+							<figcaption>
+								<h4>{{ photo.title }}</h4>
+								<p>
+									{{ photo.description }}
+								</p>
+							</figcaption>
+						</figure>
+					</a>
+					{% endif %}
+				</div>
+			</div>
+			{% endfor %}
+		   <div class="clearfix"> </div>
+		</div>
+	
+	</div>
+<!-- //gallery -->
+
+<!-- testimonials -->
+	<div class="testimonials" id="testimonials">
+		<div class="container">
+			<div class="w3_agile_team_grid">
+				
+				<div class="w3_agile_team_grid_right">
+					<h3>Repositorio de Investigaciones y Trabajos Académicos</h3>
+					
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="w3ls_testimonials_grids">
+				 <section class="center slider">
+						<div class="agileits_testimonial_grid">
+							<div class="w3l_testimonial_grid">
+								<p>In eu auctor felis, id eleifend dolor. Integer bibendum dictum erat, 
+									non laoreet dolor.</p>
+								<h4>Rosy Crisp</h4>
+								<h5>Student</h5>
+								<div class="w3l_testimonial_grid_pos">
+									<img src="{{ url_for('static', filename='images/t1.jpg') }}" alt=" " class="img-responsive" />
+								</div>
+							</div>
+						</div>
+						<div class="agileits_testimonial_grid">
+							<div class="w3l_testimonial_grid">
+								<p>In eu auctor felis, id eleifend dolor. Integer bibendum dictum erat, 
+									non laoreet dolor.</p>
+								<h4>Laura Paul</h4>
+								<h5>Student</h5>
+								<div class="w3l_testimonial_grid_pos">
+									<img src="{{ url_for('static', filename='images/t2.jpg') }}" alt=" " class="img-responsive" />
+								</div>
+							</div>
+						</div>
+						<div class="agileits_testimonial_grid">
+							<div class="w3l_testimonial_grid">
+								<p>In eu auctor felis, id eleifend dolor. Integer bibendum dictum erat, 
+									non laoreet dolor.</p>
+								<h4>Michael Doe</h4>
+								<h5>Student</h5>
+								<div class="w3l_testimonial_grid_pos">
+									<img src="{{ url_for('static', filename='images/t3.jpg') }}" alt=" " class="img-responsive" />
+								</div>
+							</div>
+						</div>
+				</section>
+			</div>
+		</div>
+	</div>
+<!-- //testimonials -->
+<!-- contact -->
+<!-- 	<div class="contact" id="contact">
+	<div class="container">  
+			<div class="w3l-services-heading">
+				<h3>Contact Us</h3>
+			
+			</div>
+			<div class="agile-contact-grids">
+						<div class="col-md-6 w3-agile-address-right"> -->
+<!-- tabs section -->
+<!-- <div class="jquery-script-clear"></div>
+<div class="demo">
+	
+			
+		<div id="verticalTab">
+			<ul class="resp-tabs-list">
+				<li>
+					<div class="tab1">
+						<h3>Dubai</h3>
+					</div>
+				</li>
+				<li>
+					
+					<div class= "tab1">
+						<h3>Usa</h3>
+						
+					</div>
+					
+				</li>
+				<li>
+					
+					<div class="tab1">
+						<h3>Qatar</h3>
+						
+					</div>
+				</li>
+				<li>
+					
+					<div class="tab1">
+						<h3>Uk</h3>
+					</div>
+				</li>
+				<li>
+					
+					<div class=" tab1">
+						<h3>Paris</h3>
+					</div>
+				</li>
+			</ul>
+			<div class="resp-tabs-container">
+			<div>
+				<div class=" tabs-right1">
+						<h3>adam sam</h3>
+						<h4> tour consultant</h4>
+						<div class="tab-bottom">
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i>4235 50 Ave, Lloy, SK S9V 0P4,Dubai</p>
+							<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:mail@example.com">mail@example.com</a></p>
+							<p><i class="fa fa-phone" aria-hidden="true"></i>+010 233 455 6789</p>
+							<p><i class="fa fa-fax" aria-hidden="true"></i>567-594-6931</p>
+						</div>
+						
+						
+				</div>	
+				
+					<div class="clearfix"></div>
+			</div>
+			<div>
+				<div class=" tabs-right1">
+						<h3>monty har</h3>
+						<h4> tour consultant</h4>
+						
+						<div class="tab-bottom">
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i>4012 50 Ave, Lloy, SK S9V 0P4,Usa</p>
+							<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:mail@example.com">mail@example.com</a></p>
+							<p><i class="fa fa-phone" aria-hidden="true"></i>+010 233 455 6789</p>
+							<p><i class="fa fa-fax" aria-hidden="true"></i>567-594-6931</p>
+						</div>
+						
+							
+						
+				</div>	
+				
+					<div class="clearfix"></div>
+			</div>
+			<div>
+				<div class=" tabs-right1">
+						<h3>baby mars</h3>
+						<h4>tour consultant</h4>
+						
+						<div class="tab-bottom">
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i>4100 50 Ave, Lloy, SK S9V 0P4, Qatar</p>
+							<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:mail@example.com">mail@example.com</a></p>
+							<p><i class="fa fa-phone" aria-hidden="true"></i>+010 233 455 6789</p>
+							<p><i class="fa fa-fax" aria-hidden="true"></i>567-594-6931</p>
+						</div>
+						
+							
+						
+				</div>	
+				
+					<div class="clearfix"></div>
+			</div>
+			<div>
+				<div class=" tabs-right1">
+						<h3>marsh hip</h3>
+						<h4>tour consultant</h4>
+						
+						<div class="tab-bottom">
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i>4025 50 Ave, Lloyd, SK S9V 0P4,Uk</p>
+							<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:mail@example.com">mail@example.com</a></p>
+							<p><i class="fa fa-phone" aria-hidden="true"></i>+010 233 455 6789</p>
+							<p><i class="fa fa-fax" aria-hidden="true"></i>567-594-6931</p>
+						</div>
+						
+							
+						
+				</div>	
+				
+					<div class="clearfix"></div>
+			</div>
+			<div>
+				<div class=" tabs-right1">
+						<h3>subbu roy</h3>
+						<h4>tour consultant</h4>
+						
+						<div class="tab-bottom">
+							<p><i class="fa fa-map-marker" aria-hidden="true"></i>4231 50 Ave, Lloy, SK S9V 0P4, Paris</p>
+							<p><i class="fa fa-envelope" aria-hidden="true"></i><a href="mailto:mail@example.com">mail@example.com</a></p>
+							<p><i class="fa fa-phone" aria-hidden="true"></i>+010 233 455 6789</p>
+							<p><i class="fa fa-fax" aria-hidden="true"></i>567-594-6931</p>
+						</div>
+						
+							
+						
+				</div>	
+				
+					<div class="clearfix"></div	>
+			
+				</div>
+			</div>
+		 -->
+
+<!-- //agents section -->
+<!-- 						<div class="clearfix"> </div>
+					</div>
+					</div>
+					
+				</div>
+				<div class="col-md-6 contact-form">
+					<form action="#" method="post">
+						<input type="text" name="First Name" placeholder="First Name" required="">
+						<input class="email" name="Last Name" type="text" placeholder="Last Name" required="">
+						<input type="text" name="Number" placeholder="Mobile Number" required="">
+						<input class="email" name="Email" type="text" placeholder="Email" required="">
+						<textarea name="Message" placeholder="Message" required=""></textarea>
+						<input type="submit" value="SUBMIT">
+					</form>
+				</div>
+				<div class="clearfix"> </div>	
+			</div>
+		</div>
+	</div>
+	<div style="height: 30px; clear: both"></div>
+ -->
+	<!-- //contact -->
+	<!-- map -->
+{% endblock %}
