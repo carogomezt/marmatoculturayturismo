@@ -1384,6 +1384,9 @@ h3.w3-contact-vist {
 .text-center{
     text-align: center;
 }
+.text-white {
+    color: #fff;
+}
 /*-- /responsive design --*/
 @media(max-width:1440px){
 .header ul.nav.navbar-nav.navbar-left {
