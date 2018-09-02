@@ -306,9 +306,9 @@
 			<div class="col-md-3 w3agile_gallery_grid">
 				<div class="w3agile_gallery_image">
 					{% if photo.image_url %}
-					<a class="sb" href="{{ url_for('static', filename='images/' + photo.image_url) }}">
+					<a class="sb" href="http://drive.google.com/uc?export=view&id={{photo.image_url}}">
 						<figure>
-							<img src="{{ url_for('static', filename='images/' + photo.image_url) }}" alt="" class="img-responsive" />
+							<img src="http://drive.google.com/uc?export=view&id={{photo.image_url}}" alt="" class="img-responsive" />
 							<figcaption>
 								<h4>{{ photo.title }}</h4>
 								<p>
