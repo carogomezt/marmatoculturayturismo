@@ -334,7 +334,7 @@ body a:hover{
 /* //about */
 /* /what we offer */
  .about-grids1{
-	background: url(../images/off1.jpg) no-repeat 0px 0px;
+	background: url(../images/backgroundEncuentro.jpg) no-repeat 0px 0px;
     background-size: cover;
     -webkit-background-size: cover;
     -o-background-size: cover;
@@ -1386,6 +1386,13 @@ h3.w3-contact-vist {
 }
 .text-white {
     color: #fff;
+}
+.text-justify {
+    text-align: justify;
+}
+.logos-container {
+    background-color: #fff;
+    padding: 2em 0;
 }
 /*-- /responsive design --*/
 @media(max-width:1440px){
