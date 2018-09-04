@@ -78,7 +78,7 @@
 	</div>
 		<div class="about-grids">
 		<div class="col-md-6 about-left">
-			<img src="{{ url_for('static', filename='images/ga8.jpg') }}" alt="" />
+			<img src="{{ url_for('static', filename='images/about.jpg') }}" alt="" />
 		</div>
 		<div class="col-md-6 about-right text-justify">
 			<p>Es una organización sin ánimo de lucro que desarrolla actividades económicas, empresariales, ambientales, culturales y sociales encaminadas al fomento del turismo en el municipio de Marmato.</p>
@@ -102,25 +102,25 @@
 		</div>
 		<div class="col-md-6 about-bottom-right">
 			<div class="col-md-6 about-bottom-icon1">
-			<i class="fa fa-map-signs" aria-hidden="true"></i>
+			<i class="fa fa-th-large" aria-hidden="true"></i>
 			<h4>8</h4>
 			<h3>Versiones</h3>
 			</div>
 			<div class="col-md-6 about-bottom-icon1">
 			<i class="fa fa-book" aria-hidden="true"></i>
-			<h4>8</h4>
+			<h4>70</h4>
 			<h3>Investigaciones</h3>
 			<h4>Nacionales Socializadas</h4>
 			</div>
 			<div class="clearfix"></div>
 			<div class="col-md-6 about-bottom-icon1">
 			<i class="fa fa-group" aria-hidden="true"></i>
-			<h4>8</h4>
+			<h4>591</h4>
 			<h3>Asistentes</h3>
 			</div>
 			<div class="col-md-6 about-bottom-icon1">
 			<i class="fa fa-globe" aria-hidden="true"></i>
-			<h4>8</h4>
+			<h4>20</h4>
 			<h3>Investigaciones</h3>
 			<h4>Internacionales Socializadas</h4>
 			</div>
@@ -140,6 +140,7 @@
 					<div class="modal-body">
 					<div class="agileits-w3layouts-info text-justify">
 						<img src="{{ url_for('static', filename='images/ga9.jpg') }}" alt="" />
+						<p>Foto: @JessAr</p>
 						<p>El Comité de Turismo de Marmato, surge en el año 2007, y se da como producto de unos talleres de socialización de un estudio de investigación realizado por el antropólogo Carlos Julio González Colonia con un grupo interdisciplinario de la Universidad Tecnológica de Pereira (UTP).</p>
 
 						<p>En el momento de su creación, los líderes del Comité de Turismo se pusieron como meta, posicionar este sector en el segundo renglón de la economía del municipio.</p>
@@ -349,6 +350,7 @@
 							<img src="http://drive.google.com/uc?export=view&id={{photo.image_url}}" alt="" class="img-responsive" />
 							<figcaption>
 								<h4>{{ photo.title }}</h4>
+								<p>Foto: {{ photo.author }}</p>
 								<p>
 									{{ photo.description }}
 								</p>
