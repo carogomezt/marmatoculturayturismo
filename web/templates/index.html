@@ -386,9 +386,15 @@
 							<p>{{ investigacion.title }}</p>
 							<h4>{{ investigacion.authors }}</h4>
 							<h5>{{ investigacion.category }}</h5>
-    						<div class="more">
-								<a href="{{ url_for('static', filename='documents/' + investigacion.file_url) }}" target="_blank">Ver investigación</a>
+    						{% if investigacion.file_url %}
+					    	<div class="more text-center">
+								<a href="https://drive.google.com/file/d/{{investigacion.file_url}}/view?usp=sharing" target="_blank">Ver investigación</a>
 							</div>
+							{% else %}
+							<div class="more text-center">
+								<a href="{{investigacion.link_url}}" target="_blank">Ver investigación</a>
+							</div>
+							{% endif %}
 							<!-- <div class="w3l_testimonial_grid_pos">
 								<img src="{{ url_for('static', filename='images/t1.jpg') }}" alt=" " class="img-responsive" />
 							</div> -->

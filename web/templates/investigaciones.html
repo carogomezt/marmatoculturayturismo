@@ -37,9 +37,15 @@
 				  		<div class="clearfix"></div>
 				    	{{ investigacion.description}}
 				    	<div class="clearfix"></div>
+				    	{% if investigacion.file_url %}
 				    	<div class="more text-center">
-							<a href="{{ url_for('static', filename='documents/' + investigacion.file_url) }}" target="_blank">Ver investigación</a>
+							<a href="https://drive.google.com/file/d/{{investigacion.file_url}}/view?usp=sharing" target="_blank">Ver investigación</a>
 						</div>
+						{% else %}
+						<div class="more text-center">
+							<a href="{{investigacion.link_url}}" target="_blank">Ver investigación</a>
+						</div>
+						{% endif %}
 				  	</div>
 				</div>
 			</div>
