@@ -1,0 +1,55 @@
+[
+  {
+    "name": "Solicitud Régimen Tributario Especial",
+    "file_url": "/static/documents/solicitud_regimen_tributario_especial.pdf"
+  },
+  {
+    "name": "Presentación de Información por Envío de Archivos 1",
+    "file_url": "/static/documents/presentacion_informacion_envio_archivos_1.pdf"
+  },
+  {
+    "name": "Presentación de Información por Envío de Archivos 2",
+    "file_url": "/static/documents/presentacion_informacion_envio_archivos_2.pdf"
+  },
+  {
+    "name": "Acta Constitución Comité",
+    "file_url": "/static/documents/acta_constitucion_comite.pdf"
+  },
+  {
+    "name": "Certificado Antecedentes Judiciales",
+    "file_url": "/static/documents/antecedentes_judiciales.pdf"
+  },
+  {
+    "name": "Acta de Autorización al Representante Legal",
+    "file_url": "/static/documents/autorizacion_representante_legal.pdf"
+  },
+  {
+    "name": "Balance General 2017",
+    "file_url": "/static/documents/balance_general2017.pdf"
+  },
+  {
+    "name": "Cámara de Comercio",
+    "file_url": "/static/documents/camara_comercio.pdf"
+  },
+  {
+    "name": "Certificación DIAN",
+    "file_url": "/static/documents/certificacion_dian.pdf"
+  },
+  {
+    "name": "Estatutos Comité",
+    "file_url": "/static/documents/estatutos_comite.pdf"
+  },
+  {
+    "name": "Informe Económico",
+    "file_url": "/static/documents/informe_economico.pdf"
+  },
+  {
+    "name": "Declaración de Renta 2017",
+    "file_url": "/static/documents/renta2017.pdf"
+  },
+  {
+    "name": "RUT",
+    "file_url": "/static/documents/rut.pdf"
+  }
+  
+]
